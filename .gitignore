@@ -1,21 +1,41 @@
-# Node modules (ignore all from both client and server)
+#############################
+# Node modules
+#############################
 node_modules/
+client/node_modules/
+server/node_modules/
 
+#############################
 # Environment files
+#############################
 .env
-server/.env
+*.env
 client/.env
+client/*.env
+server/.env
+server/*.env
 
-# Build files
-build/
+#############################
+# Build outputs
+#############################
 dist/
+build/
+client/dist/
+client/build/
+server/dist/
+server/build/
 
+#############################
 # Logs
-logs
+#############################
+logs/
 *.log
 npm-debug.log*
 yarn-debug.log*
 
-# OS / Misc
+#############################
+# OS + Editor
+#############################
 .DS_Store
 Thumbs.db
+.vscode/

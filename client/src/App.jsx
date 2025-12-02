@@ -1,9 +1,27 @@
-import Dashboard from "../src/pages/dashboard.jsx";
+import { Routes, Route } from "react-router-dom";
+import Navbar from "./navbar/navbar.jsx";
+import AddStartup from "./pages/AddStartup";
+import Dashboard from "./pages/dashboard.jsx";
+import Analytics from "./pages/analytics.jsx";
+import Login from "./pages/login.jsx";
+import StartupDetails from "./pages/startupDetails.jsx";
+import "./App.css";
 
-export default function App() {
+function App() {
   return (
-    <div className="bg-black min-h-screen text-white">
-      <Dashboard />
-    </div>
+    <>
+      <Navbar />
+
+      <Routes>
+        <Route path="/" element={<Dashboard />} />
+        <Route path="/analytics" element={<Analytics />} />
+        <Route path="/analytics/:id" element={<Analytics />} />
+        <Route path="/addStartup" element={<AddStartup />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/startup/:id" element={<StartupDetails />} /> {/* ✅ added */}
+      </Routes>
+    </>
   );
 }
+
+export default App;
