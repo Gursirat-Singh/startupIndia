@@ -2,7 +2,7 @@ InnoScope – Startup India Dashboard
 
 InnoScope is a MERN-stack analytics dashboard built to visualize insights from the Indian Startup Ecosystem. It presents state-wise startup distribution, funding trends, and sector-based analytics through an interactive and modern UI.
 
-🚀 Features
+🚀 Features 
 
 • Interactive charts and visualizations
 • State-wise startup analytics
