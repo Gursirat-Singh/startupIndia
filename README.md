@@ -10,8 +10,8 @@ InnoScope is a MERN-stack analytics dashboard built to visualize insights from t
 • MERN Stack (MongoDB, Express, React, Node.js)
 • Secure backend with validation and JWT auth
 • MongoDB Atlas + Cloudinary integration
-• Modern UI using React + Tailwind CSS
-
+• Modern UI using React
+kk
 🛠️ Tech Stack
 
 Frontend: React, Vite, Tailwind CSS, Axios
